@@ -23,7 +23,7 @@ const ctx = canvas.getContext("2d");
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
 
-const letters = "アァイィウヴエェオカガキギクグケゲコゴサザシジスズセゼソゾタダチッヂヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロワヰヱヲンABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+const letters = "00100111101";
 const matrix = letters.split("");
 
 const fontSize = 16;
@@ -121,3 +121,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   typeWriter();
 });
+
